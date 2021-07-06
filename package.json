@@ -1,0 +1,26 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "A simple command line password generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "Node.js",
+    "commander",
+    "chalk",
+    "clipboardy"
+  ],
+  "author": "David Robb <drobb2011@gmail.com> (https://davidrobb2021.tech/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}

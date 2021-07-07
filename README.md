@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Passgen ScreenShot](./images/screenshhot-generator.png)
+![Passgen ScreenShot](./images/screenshot-generated.png)
 
 This is a simple password generator where you can change the length, and strength of the password when you run the commands below. Enjoy!
 
@@ -88,6 +88,7 @@ This is a simple password generator where you can change the length, and strengt
 * [Commander](https://www.npmjs.com/package/commander)
 * [Chalk](https://www.npmjs.com/search?q=chalk)
 * [Clipboardy](https://www.npmjs.com/package/clipboardy)
+* [fast-password-entropy](https://www.npmjs.com/package/fast-password-entropy)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -129,7 +130,7 @@ This project requires Node.js be installed on your machine. The OS does not matt
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-As this is a simple password generator and lacks some of the sophistication of commercially available password generators this should be considered a demo of what you can do with commander, chalk, and clipboardy. As an enhancement to this project I will be adding a way to calculate the entropy of the generated password. Coming soon!
+As this is a simple password generator and lacks some of the sophistication of commercially available password generators this should be considered a demo of what you can do with commander, chalk, and clipboardy. Fast password entropy is used to calculate and display the entropy of the generated password. The higher the number of entropy bits the more unpredictable a password is. Here is an excellent article on [password entropy](https://www.pleacher.com/mp/mlessons/algebra/entropy.html).
 
 ### Current Version
 
@@ -185,6 +186,7 @@ Project Link: [https://github.com/drobb2020/passgen](https://github.com/drobb202
 
 * [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 * [YouTube Video](https://www.youtube.com/watch?v=3Xx83JAktXk)
+* [David Pleacher](https://www.pleacher.com/mp/mpframe.html)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

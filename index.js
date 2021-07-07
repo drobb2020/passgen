@@ -3,6 +3,7 @@
 const program = require("commander");
 const chalk = require("chalk");
 const clipboardy = require("clipboardy");
+const stringEntropy = require("fast-password-entropy");
 const log = console.log;
 const createPassword = require("./utils/createPassword");
 const savePassword = require("./utils/savePassword");
@@ -26,9 +27,13 @@ if (save) {
   savePassword(generatedPassword)
 }
 
+// Calculate the entropy of generated password
+const entropy = stringEntropy(generatedPassword)
+
 // Copy to clipboard
 clipboardy.write(generatedPassword)
 
 // Output generated password
 log(chalk.blue('Generated Password: ') + chalk.bold(generatedPassword));
+log(chalk.green('Entropy: ') + chalk.bold((entropy) + (' bits.')));
 log(chalk.yellow('Password copied to clipboard'))

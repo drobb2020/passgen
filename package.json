@@ -14,13 +14,15 @@
     "Node.js",
     "commander",
     "chalk",
-    "clipboardy"
+    "clipboardy",
+    "entropy"
   ],
   "author": "David Robb <drobb2011@gmail.com> (https://davidrobb2021.tech/)",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "clipboardy": "^2.3.0",
-    "commander": "^8.0.0"
+    "commander": "^8.0.0",
+    "fast-password-entropy": "^1.1.1"
   }
 }
